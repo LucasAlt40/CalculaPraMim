@@ -1,0 +1,39 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      li {
+        margin: 1rem;
+
+        h3,
+        h1 {
+          font-family: "Poppins";
+          font-weight: normal;
+        }
+
+        h3:hover {
+          color: #0d7377;
+          text-decoration: underline;
+        }
+      }
+
+      .title {
+        margin-top: 2rem;
+        padding: 15rem;
+
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+

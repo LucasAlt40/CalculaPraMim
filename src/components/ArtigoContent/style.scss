@@ -1,0 +1,51 @@
+.card-form {
+  font-family: "Roboto", sans-serif;
+
+  margin: 4rem auto 4rem auto;
+  width: 1120px;
+
+  border-radius: 12px;
+
+  background: #323232;
+
+  header {
+    width: 100%;
+    height: 50px;
+
+    background: #0d7377;
+
+    border-radius: 12px 12px 0 0;
+  }
+
+  main {
+    padding: 70px;
+    font-size: 25px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin: 1rem;
+    }
+
+    .start-article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        margin: 3rem;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

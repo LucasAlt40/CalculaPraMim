@@ -1,0 +1,62 @@
+.card {
+  font-family: "Roboto";
+
+  margin: auto;
+  border-radius: 12px;
+  background: #323232;
+
+  width: 500px;
+  height: 520px;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 30px;
+    margin: 2rem;
+  }
+
+  .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin: 1rem;
+    width: 420px;
+    height: 220px;
+  }
+
+  .button {
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+    border: 2px solid #0d7377;
+    border-radius: 12px;
+
+    color: #0d7377;
+    font: bold;
+    font-size: 23px;
+    font-family: "Poppins";
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .button:hover {
+    background: #0d7377;
+    color: #fff;
+    transform: scale(1.2);
+  }
+
+  span {
+    background: #14ffec;
+    width: 350px;
+    height: 2px;
+  }
+}
