@@ -14,6 +14,8 @@ function PitagorasEquation() {
       resultado.current.innerHTML = `<span class="error">Erro!</span>`;
     } else if (valueA && valueB && valueC) {
       resultado.current.innerHTML = `<span class="error">Erro!</span>`;
+    } else if (valueA && !valueB && !valueC) {
+      resultado.current.innerHTML = `<span class="error">Erro!</span>`;
     } else if (!valueA) {
       calculateHypotenuse();
     } else {

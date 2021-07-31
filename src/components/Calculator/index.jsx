@@ -6,7 +6,9 @@ function Calculator(props) {
   return (
     <div className="calculator-content">
       <div className="title">
-        <h1>{props.nameEquation}</h1>
+        <div className="name">
+          <h1>{props.nameEquation}</h1>
+        </div>
         <img src={props.imageLink} alt="imagem" />
         <h2>{props.desc}</h2>
       </div>

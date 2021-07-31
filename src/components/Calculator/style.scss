@@ -15,73 +15,88 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
     img {
       width: 300px;
       margin-bottom: 2rem;
     }
 
-    h1 {
-      margin: 3rem;
-    }
-  }
+    .name {
+      background-color: #0a695d;
+      width: 100%;
 
-  .inputs {
-    width: 100%;
-
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-
-    label {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-    }
+      justify-content: center;
 
-    input {
-      width: 100px;
+      border-radius: 12px 12px 0 0;
       height: 50px;
 
-      border-radius: 12px;
-      border: 2px solid #0d7377;
-      outline: none;
+      h1 {
+        margin: 3rem;
+      }
 
-      color: #000;
-      font-size: 2rem;
-      text-align: center;
-
-      transition: all 0.2s ease-in;
+      margin-bottom: 2rem;
     }
 
-    input:focus {
-      border: 4px solid #0d7377;
+    .inputs {
+      width: 100%;
+
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 1rem;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input {
+        width: 100px;
+        height: 50px;
+
+        border-radius: 12px;
+        border: 2px solid #0d7377;
+        outline: none;
+
+        color: #000;
+        font-size: 2rem;
+        text-align: center;
+
+        transition: all 0.2s ease-in;
+      }
+
+      input:focus {
+        border: 4px solid #0d7377;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
     }
 
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
-  }
+    .result {
+      display: flex;
+      flex-direction: column;
 
-  .result {
-    display: flex;
-    flex-direction: column;
+      margin: 2rem;
 
-    margin: 2rem;
+      span {
+        font-size: 40px;
+      }
 
-    span {
-      font-size: 40px;
-    }
+      .core-numbers {
+        color: #0a695d;
+      }
 
-    .core-numbers {
-      color: #0a695d;
-    }
-
-    .error {
-      color: rgb(172, 17, 12);
+      .error {
+        color: rgb(172, 17, 12);
+      }
     }
   }
 }
